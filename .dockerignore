@@ -1,0 +1,33 @@
+# Compiled class files
+*.class
+
+# HTML/JS files (not needed, server generates HTML)
+# Allow index.html
+*.html
+!index.html
+*.js
+*.css
+
+# Batch/PowerShell scripts
+*.bat
+*.ps1
+
+# Documentation
+# Allow README.md
+*.md
+!README.md
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Old server files
+WebServer.java
+CompressionApp.java
+CompressionDemo.java
+

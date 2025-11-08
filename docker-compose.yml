@@ -1,0 +1,14 @@
+services:
+  file-compressor:
+    build: .
+    container_name: file-compressor-app
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    networks:
+      - compressor-network
+
+networks:
+  compressor-network:
+    driver: bridge
+
